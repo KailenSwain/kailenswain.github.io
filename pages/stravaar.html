@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/strava.css">
+	<link rel="stylesheet" href="https://use.typekit.net/tvz3roq.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+</head>
+
+<nav class="nav ">
+	<h class="title">Strava AR</h>
+	<!-- hamburger code below -->
+    <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+      <a href="../index.html"><li>Projects</li></a>
+      <a href="../about.html"><li>About</li></a>
+      <a href="../resume.pdf"target="_blank"><li>Resume</li></a>
+      <a href="https://instagram.com/the_kailen" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+    </ul>
+  </div>
+</nav>
+
+<body>
+	<div class="projectcontent">
+		<div class="intropic">
+			
+			<img class="thumbnail" src="../assets/strava/stravaarthumb.png">
+		</div>
+		<p class="introtext">
+			<!-- Strava AR is a removeable heads-up display for cyclists that allows for live exploration of user generated routes, besides  providing basic features such as real-time ride data. 
+			<br> -->
+			This was a solo project for my behavior class, with the goal of creating a service device that would faciliate behavior change for a user. 
+
+		</p>
+
+		
+
+
+		<p class="sectionhead">
+			Duration: 5 Weeks
+		</p>
+
+				<p class="subsectionhead">
+					Skills developed:
+				</p>
+				<p class="introtextsmall">
+					User Research<br>
+					Visual Design<br>
+					Physical Prototyping<br>
+					Video Production<br>
+				</p>
+	
+
+
+	
+		<!-- end two column test -->
+
+		<p class="sectionhead">
+			Process
+		</p>
+		
+		<p class="introtext">
+		I began this project with the intent to create a device that would ehance and change the behavior of bicycle riders. 		</p>
+			<p class="introtext">
+		After interviewing bike users of varying skill levels, I focused my project on cyclists who ride for pleasure, rather than commuters or utilitarian riders.</p>
+		<div class="intropic">
+			
+			<img class="thumbnail" src="../assets/strava/interviewees.png">
+			
+		</div>
+
+		<p class="introtext">
+		Using the stories I gathered from interviews, I narrowed the problem down to a few "how might we"" statements. For these problem statements I created 30 seperate concept sheets, which I pinned up and let my peers vote on. 
+				</p>
+
+		<div class="intropic">
+			
+			<img class="thumbnail" src="../assets/strava/conceptpics.png">
+		</div>
+		
+		<p class="sectionhead">
+			Digital
+		</p>
+		<p class="introtext">
+		Starting with sketched wireframes, I created screen overlays in Adobe XD. Using Premiere I overlayed these onto a live action video that I shot to demonstrate interacting with the device. 
+		</p>
+
+		<div class="intropic">
+			
+			<img class="thumbnail" src="../assets/strava/screens.png">
+		</div>
+		<p class="introtext">
+		The device is controlled through a combination button and dial, similar to the digital crown on an Apple watch. Route filtering would be done through a screen on the strava mobile app. 
+		</p>
+		<p class="sectionhead">
+			Physical
+		</p>
+		<p class="introtext">
+		To create a physical prototype for filming, I first started with some sketches. Inspiration included Google Glass and the Skully AR motorcycle helmet. I kept the device seperate from the helmet for user flexibility. 
+		</p>
+		
+		<div class="intropic">
+			
+			<img class="thumbnail" src="../assets/fordbase/firstscreens.png">
+			<!-- create some fake process sketches -->
+		</div>
+		
+		<p class="introtext">
+		I moved forward with 3D modeling in Autodesk Fusion, fabricating fast and sloppy 3D prints to test the fit and field of view. The mounting system would be a combination of rare earth magnets and 3M adhesive strips. The screens are laser cut scrap acrylic. 
+				</p>
+		<div class="intropic">
+			
+			<img class="thumbnail" src="../assets/strava/fabrication.png">
+		</div>
+		<!-- insert process pic of fabrication -->
+
+		<p class="sectionhead">
+			Deliverable
+		</p>
+		<p class="introtext">
+		The screens and phyiscal prototype all came together in a video that I filmed and produced for the final presentation. 
+		</p>
+
+				<p class="introtext">
+		The device allows a cyclist to record their route, while providing realtime data such as speed and time.
+		</p>
+		<div class="intropic">
+			<!-- <img class="intropic2" src="assets/july2018.gif"> -->
+			<video class="intropic2" autoplay loop muted playsinline >
+				<source src="../assets/strava/clippedtracker.mp4" type="video/mp4">
+				test</video>
+			</div>
+			<p class="introtext">
+		Once finished, the route is then shared with other users. 
+		</p>
+
+			<div class="intropic">
+			<!-- <img class="intropic2" src="assets/july2018.gif"> -->
+			<video class="intropic2" autoplay loop muted playsinline >
+				<source src="../assets/strava/clippedusing.mp4" type="video/mp4">
+				test</video>
+			</div>
+
+					<p class="introtext">
+		The device can also be used to discover routes created by other users. Once a route is selected, the device provides a virtual path to follow, as well as performance tracking.
+		</p>
+
+			<div class="intropic">
+			<!-- <img class="intropic2" src="assets/july2018.gif"> -->
+			<video class="intropic2" autoplay loop muted playsinline >
+				<source src="../assets/strava/clippedfollowing.mp4" type="video/mp4">
+				test</video>
+			</div>
+						<p class="introtext">
+		Upon reaching the end of the route, a brief summary of your performance is given, with more details available in the app.
+		</p>
+			<div class="intropic">
+			<!-- <img class="intropic2" src="assets/july2018.gif"> -->
+			<video class="intropic2" autoplay loop muted playsinline >
+				<source src="../assets/strava/clippedfinished.mp4" type="video/mp4">
+				test</video>
+			</div>
+			<!-- follow with gifs of usage -->
+		
+		
+		
+	</div>
+
+
+</body>
+</html>

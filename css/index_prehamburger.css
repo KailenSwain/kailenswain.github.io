@@ -1,0 +1,114 @@
+html{
+	font-family: "europa";
+	margin:0; padding:0;
+	/*height:10000px;*/
+}
+body{
+	margin:0; padding:0
+
+
+}
+nav{
+	height:auto;
+	position:fixed;
+	top:0;
+	z-index:1000;
+	background-color:white;
+
+
+
+	/*padding:30px;*/
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:15px;
+	padding-top:15px;
+	float:left;
+	width:100%;
+	box-shadow: 0px 2px 9px grey;
+
+}
+
+.kailen{
+	font-size: 42px;
+	color:#8DAFC4;
+	font-weight:700;
+}
+
+.intro{
+	margin-top:117px;
+	padding-left:30px;
+	padding-right: 30px;
+	
+
+}
+.intropic2{
+	box-sizing: border-box;
+	width:100%;
+	height:auto;
+
+}
+.intropic{
+	
+	
+	width:100%;
+
+
+
+}
+
+.introtext{
+	
+	margin-top:15px;
+	font-weight:300;
+	font-size: 14px;
+	color:#000000;
+}
+
+
+.gallery{
+	padding-left:30px;
+	padding-right: 30px;
+}
+
+.galleryhead{
+	font-size: 25px;
+	color:#000000;
+	width:100%;
+	text-align:center;
+}
+
+.project{
+margin-top:30px;
+
+}
+
+.thumbnail{
+	box-sizing: border-box;
+	width:100%;
+	height:auto;
+	/*background-color:grey;*/
+}
+
+.projtitle{
+	font-size: 20px;
+	color:black;
+	margin-top:15px;
+}
+
+a{
+	text-decoration: none;
+}
+.projtitle:hover{
+	color:#8DAFC4;
+}
+@media only screen  and (min-width : 1224px) {
+	/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	/* Styles */
+}
+
+@media only screen and (max-width : 320px) {
+
+}
