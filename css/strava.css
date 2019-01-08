@@ -6,8 +6,9 @@
 
 
 html{
-	font-family: "europa";
+	font-family: "europa", 'Helvetica neue';
 	margin:0; padding:0;
+	background-color:#272822;
 	/*height:10000px;*/
 }
 body{
@@ -21,7 +22,7 @@ nav{
 	top:0;
 	left:0;
 	z-index:1000;
-	background-color:white;
+	background-color:#272822;
 
 
 
@@ -32,7 +33,7 @@ nav{
 	padding-top:15px;
 	float:left;
 	width:110%;
-	box-shadow: 0px 2px 9px grey;
+	box-shadow: 0px 2px 9px black;
 
 }
 
@@ -69,14 +70,16 @@ nav{
 	margin-top:15px;
 	font-weight:300;
 	font-size: 14px;
-	color:#000000;
+	/*color:#000000;*/
+	color:white;
 }
 .introtextsmall{
 	
 	margin-top:15px;
 	font-weight:300;
 	font-size: 12px;
-	color:#000000;
+	/*color:#000000;*/
+	color:white;
 }
 
 
@@ -95,13 +98,15 @@ nav{
 }
 .sectionhead{
 	font-size: 20px;
-	color:black;
+	/*color:black;*/
+	color:white;
 	margin-top:15px;
 }
 
 .subsectionhead{
 	font-size: 15px;
-	color:black;
+	c/*olor:black;*/
+	color:white;
 	margin-top:15px;
 }
 .columnholder{
@@ -206,7 +211,7 @@ right:2%;
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: white;
 }
 
 /*
@@ -239,7 +244,7 @@ right:2%;
   padding-top: 125px;
 
   
-  background: #ededed;
+  background: #272822;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -248,8 +253,8 @@ right:2%;
   transform: translate(500%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  box-shadow: 0px 2px 9px black;
 }
-
 #menu li
 {
   padding: 10px 0;

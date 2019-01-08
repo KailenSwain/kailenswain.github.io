@@ -1,6 +1,7 @@
 html{
 	font-family: "europa", 'Helvetica neue';
 	margin:0; padding:0;
+  background-color:#272822;
 	/*height:10000px;*/
 }
 body{
@@ -11,23 +12,25 @@ body{
 }
 
 nav{
-	height:auto;
-	position:fixed;
-	top:0;
+  height:auto;
+  position:fixed;
+  top:0;
   left:0;
-	z-index:1000;
-	background-color:white;
+  z-index:1000;
+  /*background-color:white;*/
+  background-color:#272822;
+  
 
 
 
-	/*padding:30px;*/
-	padding-left:30px;
-	padding-right:30px;
-	padding-bottom:15px;
-	padding-top:15px;
-	float:left;
-	width:100%;
-	box-shadow: 0px 2px 9px grey;
+  /*padding:30px;*/
+  padding-left:30px;
+  padding-right:30px;
+  padding-bottom:15px;
+  padding-top:15px;
+  float:left;
+  width:110%;
+  box-shadow: 0px 2px 9px black;
 
 }
 
@@ -67,7 +70,7 @@ nav{
 	margin-top:15px;
 	font-weight:300;
 	font-size: 14px;
-	color:#000000;
+	color:white;
 }
 
 
@@ -78,7 +81,7 @@ nav{
 
 .galleryhead{
 	font-size: 25px;
-	color:#000000;
+	color:white;
 	width:100%;
 	text-align:center;
 }
@@ -197,7 +200,7 @@ right:2%;
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: white;
 }
 
 /*
@@ -230,7 +233,7 @@ right:2%;
   padding-top: 125px;
 
   
-  background: #ededed;
+  background: #272822;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -239,6 +242,7 @@ right:2%;
   transform: translate(500%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  box-shadow: 0px 2px 9px black;
 }
 
 #menu li
