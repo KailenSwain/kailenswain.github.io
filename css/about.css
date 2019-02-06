@@ -276,6 +276,13 @@ right:2%;
   margin:auto;
 }
 
+.introtext{
+  font-size: 20px;
+}
+.introtextsmall{
+  font-size: 20px;
+}
+}
 /*.projcolumn{
   width:50%;
   float:left;
