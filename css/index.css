@@ -1,12 +1,13 @@
 html{
 	font-family: "europa", 'Helvetica neue';
 	margin:0; padding:0;
-  background-color:#35342B;
-  background-image:url("../assets/photowalk6.2double.jpg");
+  background-image: linear-gradient(to bottom right, #CB48B7, #8DAFC4);
+  /*background-color:#35342B;*/
+  /*background-image:url("../assets/photowalk6.2double.jpg");*/
   background-size:100%;
   background-repeat: no-repeat;
 
-    
+ 
 	/*height:10000px;*/
 }
 body{
@@ -23,7 +24,7 @@ nav{
 	top:0;
   left:0;
 	z-index:1000;
-	background-color:white;
+	background-color: rgba(255, 255, 255, 0.9);
 
 
 
@@ -43,7 +44,8 @@ nav{
 }
 .kailen{
 	font-size: 42px;
-	color:#8DAFC4;
+  color:black;
+	/*color:#8DAFC4;*/
 	font-weight:700;
 }
 
@@ -187,6 +189,7 @@ a:hover
 	margin-top:-35px;
   display: block;
   position: fixed;
+
   /*top: 50px;*/
 right:2%;
   
@@ -224,7 +227,7 @@ right:2%;
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: black;
   border-radius: 3px;
   
   z-index: 1;
@@ -254,7 +257,7 @@ right:2%;
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: white;
+  background: black;
 }
 
 /*
