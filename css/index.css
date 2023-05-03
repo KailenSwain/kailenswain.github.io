@@ -1,17 +1,17 @@
 html{
-	font-family: "europa", 'Helvetica neue';
-	margin:0; padding:0;
+  font-family: "europa", 'Helvetica neue';
+  margin:0; padding:0;
 /*  background-image: linear-gradient(to bottom right, #CB48B7, #8DAFC4);*/
-  background-color:#DAC4F7;
+  background-color:white;
   /*background-image:url("../assets/photowalk6.2double.jpg");*/
   background-size:100%;
   background-repeat: no-repeat;
 
  
-	/*height:10000px;*/
+  /*height:10000px;*/
 }
 body{
-	margin:0; padding:0
+  margin:0; padding:0
 
 }
 .underline{
@@ -19,23 +19,22 @@ body{
 }
 
 nav{
-	height:auto;
-	position:fixed;
-	top:0;
+  height:auto;
+  position:fixed;
+  top:0;
   left:0;
-	z-index:1000;
-	background-color: rgba(255, 255, 255, 0.9);
+  z-index:1000;
+  background-color: rgba(255, 255, 255, 1);
 
 
 
-	/*padding:30px;*/
-	padding-left:30px;
-	padding-right:30px;
-	padding-bottom:15px;
-	padding-top:15px;
-	float:left;
-	width:100%;
-	box-shadow: 0px 2px 9px #EAF5FC;
+  /*padding:30px;*/
+  
+  padding-bottom:15px;
+  padding-top:32px;
+  text-align: center;
+  width:100%;
+/*  box-shadow: 0px 2px 9px #EAF5FC;*/
 
 }
 .whitelink{
@@ -43,17 +42,32 @@ nav{
   text-decoration: underline;
 }
 .kailen{
-	font-size: 42px;
-  color:black;
-	/*color:#8DAFC4;*/
-	font-weight:700;
+  font-size: 48px;
+  color:#6320EE;
+  /*color:#8DAFC4;*/
+  font-weight:700;
 }
 
+.fw{
+  color:#6320EE;
+}
+.kailen:hover{
+  color:#FDE12D;
+}
+.git{
+  font-size: ;
+}
+.github{
+  color:#6320EE;
+}
+.github:hover{
+  color:#FDE12D;
+}
 .intro{
-	margin-top:117px;
-/*	padding-left:30px;
-	padding-right: 30px;*/
-	
+  margin-top:117px;
+/*  padding-left:30px;
+  padding-right: 30px;*/
+  
 
 }
 .color{
@@ -63,9 +77,9 @@ nav{
   color:orange;
 }
 .intropic2{
-	box-sizing: border-box;
-	width:100%;
-	height:auto;
+  box-sizing: border-box;
+  width:100%;
+  height:auto;
 
 }
 .white{
@@ -91,30 +105,41 @@ nav{
    filter:contrast(1.1);
 }
 .intropic{
-	
-	
-	width:100%;
+  
+  
+  width:100%;
 
 
 
 }
 
 .introtext{
-	
-	margin-top:200px;
-	/*font-weight:300;*/
-	font-size: 20px;
-	color:black;
-  background-color: rgba( 255, 255, 255, 0.6);
-/*  border-radius: 10px;*/
-  padding-left:40px;
-  padding-right: 40px;
-  padding-bottom:25px;
-  padding-top:5px;
-  margin-right: 80px:
-  margin-left:80PX;
+  
+  text-align: center;
 }
 
+.resumebutton{
+  height: 48px;
+  width:240px;
+  
+  margin:auto;
+  margin-top: 32px;
+  padding-bottom:8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #FDE12D;
+  display: block;
+}
+.resumebutton:hover{
+  background-color:#6320EE;
+  color:white;
+}
+
+.resumetext{
+  text-align: center;
+  padding-top: 16px;
+  
+}
 
 .gallery{
 
@@ -131,10 +156,10 @@ nav{
 }
 
 .galleryhead{
-	font-size: 25px;
-	color:white;
-	width:100%;
-	text-align:center;
+  font-size: 25px;
+  color:white;
+  width:100%;
+  text-align:center;
 }
 
 .project{
@@ -143,11 +168,11 @@ margin-top:30px;
 }
 
 .thumbnail{
-	box-sizing: border-box;
-	width:100%;
-	height:auto;
+  box-sizing: border-box;
+  width:100%;
+  height:auto;
   border-radius: 10px;
-	/*background-color:grey;*/
+  /*background-color:grey;*/
 }
 
 .thumbnail:hover{
@@ -156,16 +181,18 @@ margin-top:30px;
 }
 
 .projtitle{
-	font-size: 30px;
-	color:white;
-	margin-top:15px;
+  font-size: 30px;
+  color:black;
+  margin-top:15px;
 }
-
+.fw{
+  color:#6320EE;
+}
 a{
-	text-decoration: none;
+  text-decoration: none;
 }
 /*.projtitle:hover{
-	color:#8DAFC4;
+  color:#8DAFC4;
 }*/
 
 
@@ -175,19 +202,19 @@ a{
 a
 {
   text-decoration: none;
-  color: #8DAFC4;
+  color: black;
   
   transition: color 0.3s ease;
 }
 
 a:hover
 {
-  color: tomato;
+  color: #6320EE;
 }
 
 #menuToggle
 {
-	margin-top:-35px;
+  margin-top:-35px;
   display: block;
   position: fixed;
 
@@ -327,7 +354,7 @@ right:2%;
   .kailen{
     color:red;
   }*/
-	/* Styles */
+  /* Styles */
 
   body{
   max-width:1000px;
@@ -351,7 +378,7 @@ right:2%;
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-	/* Styles */
+  /* Styles */
 }
 
 @media only screen
