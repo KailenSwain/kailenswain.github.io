@@ -47,7 +47,18 @@ nav{
 	/*color:#8DAFC4;*/
 	font-weight:700;
 }
-
+.kailen:hover{
+  color:#FDE12D;
+}
+.git{
+  font-size: ;
+}
+.github{
+  color:#6320EE;
+}
+.github:hover{
+  color:#FDE12D;
+}
 .intro{
 	margin-top:117px;
 /*	padding-left:30px;
@@ -114,6 +125,10 @@ nav{
   padding-right: 16px;
   background-color: #FDE12D;
   display: block;
+}
+.resumebutton:hover{
+  background-color:#6320EE;
+  color:white;
 }
 
 .resumetext{
