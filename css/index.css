@@ -166,6 +166,9 @@ nav{
 margin-top:30px;
 
 }
+.project:hover{
+  color:;
+}
 
 .thumbnail{
   box-sizing: border-box;
@@ -184,6 +187,7 @@ margin-top:30px;
   font-size: 30px;
   color:black;
   margin-top:15px;
+  margin-bottom:60px ;
 }
 .fw{
 /*  color:#6320EE;*/
@@ -191,11 +195,10 @@ margin-top:30px;
 a{
   text-decoration: none;
 }
-/*.projtitle:hover{
-  color:#8DAFC4;
-}*/
 
-
+a:hover{
+  color:red;
+}
 
 
 /*Hamburger below*/
@@ -207,10 +210,7 @@ a
   transition: color 0.3s ease;
 }
 
-a:hover
-{
-  color: #6320EE;
-}
+
 
 #menuToggle
 {
