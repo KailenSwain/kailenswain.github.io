@@ -71,7 +71,7 @@ nav{
   
   background-color: #96BEFF;
  height:auto;
- margin-bottom: 36px;
+ margin-bottom: 8px;
   
 
 }
@@ -180,6 +180,10 @@ margin-bottom: 64px;
   box-sizing: border-box;
   padding:16px;
   
+}
+.portfolio{
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .row:after{
   Content: "";
