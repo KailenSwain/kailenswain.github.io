@@ -31,7 +31,7 @@ nav{
 
   /*padding:30px;*/
   
-  padding-bottom:15px;
+  padding-bottom:16px;
   padding-top:32px;
   text-align: center;
   width:100%;
@@ -71,7 +71,7 @@ nav{
   
   background-color: #96BEFF;
  height:auto;
- margin-bottom: 8px;
+ 
   
 
 }
@@ -133,6 +133,11 @@ nav{
   font-weight: bold;
 }
 
+.introtextmedium{
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
 .button{
   height: 48px;
   width:240px;
@@ -172,6 +177,7 @@ margin-bottom: 64px;
   float:left;  
   text-align: left;
   padding:16px;
+  padding-bottom: 32px;
 }
 
 .column{
@@ -184,6 +190,7 @@ margin-bottom: 64px;
 .portfolio{
   padding-left: 16px;
   padding-right: 16px;
+  padding-top: 16px;
 }
 .row:after{
   Content: "";
@@ -191,9 +198,7 @@ margin-bottom: 64px;
   clear:both;
 }
 .gallerybig{
-    padding-top:100x;
 
-  padding-top:5px;
 /*  background-color: rgba( 0, 0, 0, 0.6);*/
 
   border-radius: 10px;
