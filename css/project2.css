@@ -149,7 +149,10 @@ nav{
 	/*color:#000000;*/
 
 }
-
+.first{
+	
+margin-top:32px;
+}
 .introtextbig{
 	margin-top:16px;
 	font-weight:400;
@@ -202,9 +205,12 @@ nav{
 	font-size: 18px;
 /*	color:black;*/
 color:#71A7FF;
-margin-top:64px;
+margin-top:32px;
 }
-
+.emphasis{
+/*	color:#71A7FF;*/
+	font-weight: 600;
+}
 .subsectionhead{
 	font-size: 15px;
 	c/*olor:black;*/
