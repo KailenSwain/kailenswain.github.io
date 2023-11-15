@@ -3,24 +3,17 @@
   display: table;
   clear: both;
 }
-nav{
-	height:auto;
-	/*position:fixed;
-	top:0;
-  left:0;
-	z-index:1000;*/
-	background-color: rgba(255, 255, 255, 1);
+.kailen{
+  font-size: 24px;
+  color:black;
+  /*color:#8DAFC4;*/
+  font-weight:400;
+  text-align: left;
+}
 
-
-
-	/*padding:30px;*/
-	
-	padding-bottom:15px;
-	padding-top:32px;
-  text-align: center;
-	width:100%;
-/*	box-shadow: 0px 2px 9px #EAF5FC;*/
-
+.kailen:hover{
+	color:black;
+}
 }
 .title{
 	font-size: 32px;
@@ -28,8 +21,9 @@ nav{
 html{
 	font-family: 'Jost', sans-serif;
 	margin:0; padding:0;
-	background-color:white;
-	-webkit-appearance: none;
+/*	background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);*/
+	background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+ background-blend-mode: screen;
         -moz-appearance: none;
         appearance: none;
 	color:black;
@@ -42,37 +36,51 @@ body{
 }
 nav{
 	height:auto;
-	/*position:fixed;
+	position:fixed;
 	top:0;
-  left:0;
-	z-index:1000;*/
-	background-color: rgba(255, 255, 255, 1);
+width: 1000px;
 
-
-
-	/*padding:30px;*/
-	
-	padding-bottom:15px;
-	padding-top:32px;
+	padding-bottom:16px;
+	padding-left: 16px;
+	padding-right:16px;
+  text-align: center;
+	padding-top:16px;
   text-align: left;
-	width:100%;
+box-sizing: border-box;
 /*	box-shadow: 0px 2px 9px #EAF5FC;*/
+}
+
+
+nav a {
+	display: block;
+	width:auto;
+	opacity: 25%;
+
+}
+nav a:hover{
+	opacity:100%;
+
+
+}
+.nav-left{
+float: left;
+}
+
+.nav-right{
+	float: right;
+}
 
 .homerun{
-
-	left:0;
-	padding-left:32px;
-	margin-top:16px;
-	float: left;
-	font-size: 32px;
-	
-}
-
-.homerun:hover{
-	color:#6320EE;
-}
+	float:left;
 
 }
+
+.resume{
+	float: right;
+}
+
+
+
 /*new stuff below this ==========*/
 
 .catchphrase{
