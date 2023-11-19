@@ -36,6 +36,7 @@ color:black;
 /*height:10000px;*/
 }
 body{
+	font-family: 'Jost', sans-serif;
 	overflow-y: scroll;
 	padding: 0;
 	margin: 0;
