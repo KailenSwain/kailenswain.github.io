@@ -1,0 +1,491 @@
+
+
+html{
+ font-family: 'Noto Sans', sans-serif;
+ margin:0; padding:0;
+/*  background-image: linear-gradient(to bottom right, #CB48B7, #8DAFC4);*/
+
+/*background-image:url("../assets/photowalk6.2double.jpg");*/
+background-size:100%;
+background-repeat: no-repeat;
+/*background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);*/
+
+
+/*height:10000px;*/
+}
+body{
+ ont-family: 'Noto Sans', sans-serif;
+ margin:auto;
+ top: 0;
+ bottom:0;
+ max-width: 940px;
+ /* padding-left:20%;
+  padding-right:20%;
+*/
+ overflow: hidden;
+ overflow-x: hidden;
+ overflow-y: scroll;
+/* background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);*/
+/* background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);*/
+
+
+}
+.underline{
+  text-decoration: underline;
+}
+
+nav{
+  text-align: right;
+  height:auto;
+  padding-left:16px;
+/*  background-color: #96BEFF;*/
+/*  position:fixed;*/
+  /*top:0;
+  left:0;
+  z-index:1000;*/
+/*  background-color: rgba(255, 255, 255, 1);*/
+
+
+
+/*padding:30px;*/
+
+padding-bottom:128px;
+padding-top:64px;
+
+/*  box-shadow: 0px 2px 9px #EAF5FC;*/
+
+}
+
+.leftnav{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+footer{
+  font-size: 14px;
+  color: #9A9FA2;
+  height: 64px;
+}
+
+
+.navlink{
+  color:#9A9FA2;
+  padding-left:16px;
+}
+
+.footerlink{
+  font-size: 14px;
+  color: #9A9FA2;
+  padding-left:16px;
+}
+
+.right{
+  text-align: right;
+  width: 50%;
+}
+
+.active{
+  color:black;
+}
+
+
+}
+.whitelink{
+  color:black;
+  text-decoration: underline;
+}
+.kailen{
+  font-size: 48px;
+  color:#96BEFF;
+  /*color:#8DAFC4;*/
+  font-weight:400;
+  text-align: left;
+}
+
+/*.fw{
+  color:#6320EE;
+}*/
+
+}
+.git{
+  font-size: ;
+}
+.github{
+  color:#6320EE;
+}
+.github:hover{
+  color:#FDE12D;
+}
+.intro{
+
+/*  background-color: #96BEFF;*/
+height:auto;
+padding-bottom:64px;
+
+
+}
+
+.introlink{
+  text-decoration: underline;
+}
+.color{
+  color:#A00B35;
+}
+.color2{
+  color:orange;
+}
+.intropic2{
+  box-sizing: border-box;
+  width:100%;
+  height:75%;
+  border-radius: 8px;
+/*  padding-bottom: 36px;*/
+
+}
+.white{
+  color:white;
+  font-weight: 600;
+}
+
+.intropic{
+
+
+  width:100%;
+}
+.textheader{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  width:75%;
+  margin:auto;
+  margin-bottom: 16px;
+  border-left-style: solid ;
+  border-left-color: #96BEFF ;
+  border-left-width: 3px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  padding-left: 8px;
+}
+.textblock{
+  font-family: 'Tinos', serif;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 16px;
+  font-weight: 500;
+  width:75%;
+  margin:auto;
+  margin-bottom: 64px;
+  
+
+
+}
+
+.bold{
+  font-weight: 700;
+}
+.introtextsmaller{
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.introtextmedium{
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.button{
+  height: 48px;
+  width:240px;
+  color:black;
+
+
+  padding-bottom:8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  
+  display: block;
+}
+.github{
+  background-color:#96BEFF;
+}
+.resume{
+  background-color: #FDE12D;
+}
+.button:hover{
+  background-color:#6320EE;
+  color:white;
+}
+
+.resumetext{
+  text-align: center;
+  padding-top: 16px;
+  
+}
+
+.gallery{
+  margin-bottom: 128px;
+  
+}
+.introcol{
+  width:50%;
+  box-sizing: border-box;
+  float:left;  
+  text-align: left;
+  padding:16px;
+  padding-bottom: 32px;
+}
+.row{
+ 
+}
+.row:after{
+  Content: "";
+  display: table;
+  clear:both;
+}
+
+.column{
+  float:left;
+
+  box-sizing: border-box;
+/*  padding:16px;*/
+
+}
+.portfolio{
+/*  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+}*/
+}
+
+
+.gallerybig{
+
+/*  background-color: rgba( 0, 0, 0, 0.6);*/
+
+border-radius: 10px;
+
+margin-top:100px;
+}
+
+.galleryhead{
+  font-size: 25px;
+  color:white;
+  width:100%;
+  text-align:center;
+}
+
+.project{
+
+
+
+}
+
+
+.project:hover{
+  color:;
+}
+
+
+.thumbnail{
+  box-sizing: border-box;
+  width:100%;
+  height:auto;
+  border-radius: 10px;
+  /*background-color:grey;*/
+}
+
+.thumbnail:hover{
+  -webkit-filter:contrast(1.1);
+  filter:contrast(1.1);
+}
+
+.projtitle{
+  font-size: 32px;
+/*  color:black;*/
+font-weight: 700;
+margin-bottom: 16px;
+}
+.descripcontainer{
+  margin-bottom: 24px;
+}
+.column{
+  float:left;
+  width: 50%;
+}
+
+.colstudy{
+  padding-top: 16px;
+  font-size: 16px;
+  padding-right:10px;
+  float: left;
+  width:40%;
+  font-weight: 500;
+  
+  text-align: right;
+
+}
+
+.gallery:hover .colstudy{
+
+  padding-right:0px;
+  transition: padding-right 0.4s ease-in-out;
+  color:#96BEFF;
+}
+
+
+/*.colstudy:hover{
+
+  padding-right:0px;
+  transition: padding-right 0.4s ease-in-out;
+
+}
+*/
+.casestudy{
+  font-size: 12;
+  text-align: right;
+
+}
+.projdescription{
+
+  font-size: 20px;
+  font-weight: 600;
+  color:#C8C8C8;
+  width: 60%;
+}
+
+.tag{
+  float: left;
+  font-size: 14px;
+/*  text-transform: uppercase;*/
+box-sizing: border-box;
+background-color: #DAC4F7;
+border-radius: 4px;
+padding:8px;
+color:black;
+
+margin-right:8px;
+}
+.tag:hover{
+  background-color:#96BEFF;
+}
+
+
+/*>> before change to 3 column*/
+/*.projtitle{
+  font-size: 30px;
+  color:black;
+  margin-top:15px;
+  margin-bottom:60px ;
+}*/
+.fw{
+/*  color:#6320EE;*/
+}
+a{
+  text-decoration: underline;
+}
+
+a:hover{
+  color:#96BEFF;
+}
+.project:hover{
+  color:black;
+}
+
+
+/*Hamburger below*/
+a
+{
+  text-decoration: none;
+  color: black;
+  
+  transition: color 0.3s ease;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html{
+    background-color: #333333;
+    color:white;
+  }
+  .projtitle{
+    color:white;
+  }
+
+/*  BELOW: Darken images for dark screen*/
+img {
+  opacity: .75;
+  transition: opacity .5s ease-in-out;
+}
+img:hover {
+  opacity: 1;
+}
+}
+
+
+
+@media only screen and (max-width: 999px){
+
+/*  test that works
+  .kailen{
+    color:red;
+  }*/
+  /* Styles */
+
+  nav{
+
+    margin-top: 64px;
+    font-size: 18px;
+  }
+  body{
+    padding-left: 10%;
+    padding-right:10%;
+  }
+  .intro{
+    padding-bottom: 64px;
+  }
+  .introtext{
+    font-size: 22px;
+    padding-bottom: 24px;
+  }
+
+  .projdescription{
+    font-size: 14px;
+    font-weight: 600;
+    max-width: 100%;
+    padding-bottom: 8px;
+  }
+  .gallerybig{
+    max-width:1400px;
+    margin:auto;
+  }
+  .projtitle{
+    font-size: 16px;
+  }
+  
+  .footerlink{
+    font-size: 20px;
+  }
+  .column{
+    font-size: 24px;
+  }
+  .gallery{
+    margin-bottom: 64px;
+  }
+  .projdescription{
+    width: 100%;
+  }
+  .descripcontainer{
+    height:50%;
+    margin-bottom: 0px;
+  }
+  .colstudy{
+    
+    visibility: hidden;
+  }
+  footer{
+
+    padding-bottom: 64px;
+  }
+
+
