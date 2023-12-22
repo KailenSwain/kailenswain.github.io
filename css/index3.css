@@ -381,14 +381,14 @@ a
   }
 
 /*  BELOW: Darken images for dark screen*/
-img {
+/*img {
   opacity: .75;
   transition: opacity .5s ease-in-out;
 }
 img:hover {
   opacity: 1;
 }
-}
+}*/
 
 
 
