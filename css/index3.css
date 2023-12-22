@@ -37,7 +37,7 @@ body{
 nav{
   text-align: right;
   height:auto;
-  padding-left:16px;
+ 
 /*  background-color: #96BEFF;*/
 /*  position:fixed;*/
   /*top:0;
@@ -60,6 +60,7 @@ footer{
   font-size: 14px;
   color: #9A9FA2;
   height: 64px;
+  margin-top: 64px;
 }
 
 
